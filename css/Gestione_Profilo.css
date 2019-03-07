@@ -1,0 +1,131 @@
+		body{
+			margin-top:1%;
+			padding: 1%;
+			background-image: url('./img/BackgroundBlack.jpg');
+		}
+
+
+h1{
+	top:5%;
+	position: relative;
+	color: white;
+	font-size: 4em;
+}
+#WrapperDesk{
+	position: absolute;
+	top:2%;
+	left:5%;
+	width: 90%;
+	height: auto;
+
+}
+#UserDesk{
+		width: 50%;
+	height: auto;
+	text-align: center;
+	position: relative;
+	left: 25%;
+	width: 50%;
+	height: 90%;
+		 box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 10px 10px 30px rgba(0,0,0,1.5);
+	border-radius: 100px; 
+  -moz-border-radius: 100px; /* firefox */
+  -webkit-border-radius: 100px; /* safari, chrome */
+	background-color: #0a1429;
+}
+#UserDesk ul{
+	top:5%;
+	position: relative;
+	list-style-type: none;
+}
+#Cancellazione ul{
+	top:5%;
+	position: relative;
+	list-style-type: none;
+		color: white;
+		    padding: 2px 2px 2px;
+		    font-size: 0.7em;
+}
+#Aggiungi_Utente li{
+	position: relative;
+	list-style-type: none;
+	color: white;
+ 	padding: 2px 2px 2px;
+	 font-size: 0.7em;
+}
+#Aggiungi_Utente{
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	top:0%;
+	width: auto;
+	height: auto;
+	font-size: 0.5em;
+	position: inherit;
+	display: none;
+}
+#Elenco_Utenti{
+	text-align: center;
+	display: none;
+}
+#UserDesk li{
+			color: white;
+		    padding: 2px 2px 2px;
+		    font-size: 2.3em;
+
+}
+#comando_modifica{
+	display: none;
+}
+#modifica_password{
+	display: none;
+}
+#comando_modificaemail{
+	display: none;
+}
+#modifica_email{
+	display: none;
+}
+#Cancella_Utente{
+	text-align: center;
+	position: relative;
+	display: none;
+}
+#comando_Aggiunta{
+	position: relative;
+	margin-bottom: 2%;
+	top:2%;
+	left:2%;
+}
+#comando_CancellaUtente{
+	position: relative;
+	margin-bottom: 2%;
+	left: 2%;
+	top:0%;
+}
+
+.button{
+	border-radius: 100px; 
+  -moz-border-radius: 100px; /* firefox */
+  -webkit-border-radius: 50px 50px 50px; 
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	 box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.buttonAdmin{
+		border-radius: 100px; 
+  -moz-border-radius: 100px; /* firefox */
+  -webkit-border-radius: 50px 50px 50px; 
+	position: relative;
+}
+.ButtonDeleteUsers{
+	font-size: 0.7em;
+	border-radius: 100px; 
+  -moz-border-radius: 100px; /* firefox */
+  -webkit-border-radius: 50px 50px 50px; 
+}
+
+

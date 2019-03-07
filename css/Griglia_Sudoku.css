@@ -1,0 +1,220 @@
+		body{
+			margin-top:1%;
+			padding: 1%;
+			background-image: url('./img/BackgroundBlack.jpg');
+			display: inline;
+		}
+	.RecordTempi{
+			width: 30%;
+			 color: #ff6666;
+		bottom: 6px;
+		left: 4px;
+		position: relative;
+		border-radius: 15px 15px 15px 15px; /* safari, chrome */
+		text-align: center;
+		}
+
+	#Wrapper{
+			position: relative;
+			top: 2%;
+			left:35%;
+			width: auto;
+			height: auto;
+			margin-left: 0%;
+		margin-right: 0%;
+		}
+
+	#GestioneTimer{
+			position: absolute;
+			left:37%;
+			width: 20%;
+			margin-left: 0%;
+			margin-right: 0%;
+			top:10%;
+			height: auto;
+			padding-bottom: 1%;
+			padding-top: 1%;	
+			text-align: center;
+		border:2px solid black;
+		border-radius: 30px 30px 30px 30px;
+	   	box-shadow: 10px 10px 30px rgba(0,0,1,2);
+	 	margin-left: 0%;
+		margin-right: 0%;
+
+	}
+	#Timer{	
+		position: relative;
+		color:black;
+		animation: penality 2s;
+    	animation-play-state: paused;
+    	animation-iteration-count: infinite;
+		font-size: 4em;
+		min-width: 65%;
+		width: 70%;
+		background-color:#ebebe0;
+		border-radius: 30px 30px 30px 30px;
+		text-align: center;
+		}
+
+@keyframes penality{
+	from{color:black;}
+	to{
+		color:red;
+	}
+}
+		#ButtonTime{
+			position: relative;
+			top:10%;
+			left:-5%;
+		}
+		#StopTime{
+			position: relative;
+			left:0%;
+		}
+		#PlayTime{
+			position: relative;
+			left:10%;
+		}
+
+		#BtnStart{
+			position: relative;
+			width:auto;
+			text-align: center;
+		    text-decoration: none;
+		    cursor: pointer;
+		    outline: none;
+		 	font: bold 25px Arial, Helvetica, sans-serif;
+		 	color: black;
+		 	padding: 2% 2%;
+			border: solid 1px #0076a3;
+		 	background: #ebebe0;
+		 	 border-radius: 50px 50px 50px 50px;
+				}
+		#Parametri{
+			position: relative;		
+			font-family: 'Helvetica','Arial';
+			left: 1% ;
+			margin-bottom: 2px;
+		}
+		.Buttons{
+		    border: none;
+		    text-align: center;
+		    text-decoration: none;
+		    cursor: pointer;
+		    outline: none;
+		 	font: bold 20px Arial, Helvetica, sans-serif;
+		 	color: black;
+		 	padding: 10px 20px;
+			border: solid 1px #0076a3;
+		 	background: #ebebe0;
+		 	border-radius: 50px 50px 50px 50px;
+		}
+
+
+		#Griglia9x9{
+		position: relative;
+		left: -5%;
+		width: 50%;
+				margin-left: 0%;
+		margin-right: 0%;
+		}
+		.Casella{
+			position: relative;
+		  border: 1px solid black;
+		 height: 45px;
+		   width: 45px;
+		}
+		.Cella{
+		   text-align: center;
+		 height: 45px;
+		   width: 45px;
+		   cursor: pointer;
+		  font-family: "Times New Roman", Times, 'serif';
+		 font-size: 30px;
+		  font-weight: bold;
+    	animation: blinked 2s;
+    	animation-play-state: paused;
+    	animation-iteration-count: 1;
+	}
+
+
+@keyframes blinked {
+    from {color:black;}
+    to {color: green; font-size: 40px;transform: rotate(340deg);}
+}
+
+		.Candidati{
+			text-align: center;
+		    height: 20px;
+		    width: 20px;
+		    font-family: "Times New Roman", Times, 'serif';
+			font-size: 1.3em;
+			z-index: 2;
+			color:white;
+		}
+
+
+		#TabellaCandidati{
+			position: absolute;
+		  	z-index: 1;
+			border: 2px solid black;
+			visibility: hidden;
+			font-size: 1.3em;
+			height: 60px;
+		  	width: 100px;
+		    margin: 0;
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    background-color: #841f1e;
+		    padding: 2px;
+		    border-radius: 7px;
+		    box-shadow: 0 0 12px rgba(79,18,18,.3);
+		}
+		.ClearButton{
+			z-index: 1;
+		    cursor: pointer;
+		    outline: none;
+		    background-color: rgba(168,62,62,.8);
+		    color: #efefed;
+		    border: none;
+		    font-size: 1em;
+		    border-radius: 0 0 0 35px;
+		    padding: 0 1px 2px 4px;
+			position: absolute;
+			top:4px;
+			right:0px;
+		 height: 20px;
+		   width: 20px;
+			visibility: hidden;
+		}
+
+		#Livelli{
+			position: relative;
+			margin: 0px;
+			padding-bottom: 5%;
+			top:1%;
+			left: -10%;
+		    color: #888;
+		}
+		#ListaLivelli ul{
+			 list-style-type: none;
+
+		}
+		#Livelli  li {
+			display: inline;
+			color: white;
+			float:left;
+			border-radius: 30px 30px 30px 30px;
+			position: relative;
+		    padding: 10px 10px 10px;
+		    cursor: pointer;
+		    font-size: 2em;
+		    
+		}
+		#Livelli li:hover {
+		    background-color: #888;
+		}
+
+

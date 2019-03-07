@@ -1,0 +1,66 @@
+
+	#ProfiloUtente{
+		position: fixed;
+		left:0px;
+		height: 100%;
+		max-width: 30%;
+		width: 30%;
+		margin-left: 0%;
+		margin-right: 10%;
+	}
+		#StatisticheUtente{
+			position: relative;
+			max-width: 60%;
+			width: 70%;
+			height: auto;
+			left:5px;
+			background-image: url('./img/BackgroundBlack.jpg');
+		    text-decoration: none;
+		    outline: none;
+		 	font: bold 10px Arial, Helvetica, sans-serif;
+		 	color: white;
+		 	padding: 10px 10px;
+			border: solid 2px grey;
+		 	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+		}
+		#StatisticheUtente label{
+		  color: white;
+		  font-size: 2.5em;
+		  position: relative;
+		  left: 0px;
+		border-radius: 30px 30px 30px 30px;
+		  text-align: center;
+
+		}
+		#StatisticheUtente input{
+					color:black;
+		}
+		#menu{
+			height: 100%;
+			top: 0px;
+			left: 0px;
+			width: 90%;
+			position: relative;
+			font-family: 'Helvetica','Arial';
+			padding: 20px;
+			text-align: center;
+		}
+		#menu a{
+			z-index: 3;
+			color:white;
+		
+	padding: 11px 10px 11px 13px;
+	text-align: center;
+	display: block;
+	margin: 0;
+	border: 0;
+	font: 1.8em "Helvetica Neue","HelveticaNeue","Helvetica","Arial","sans-serif";
+	box-sizing: border-box;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-decoration: none;
+	text-align: start;
+	outline-width: 0;
+		}

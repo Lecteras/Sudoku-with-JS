@@ -1,0 +1,122 @@
+
+*{
+	font-family: 'Conv_Taviraj-Regular', Georgia;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-image: url("./img/BackgroundLogin.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+/*******************************************************************************************************************
+	CSS per la pagina login.php
+*******************************************************************************************************************/
+
+#sign_in_content{
+	left: 30%;
+	top: 25%;
+	position: fixed;
+	width: 40%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.80);
+	padding: 3%;
+	border-radius: 12px;
+}
+
+#sign_in_content label{
+	padding: 1%;
+}
+#SubmitLogin{
+	font-size: 1.2em;
+	border-radius: 12px;
+	margin-top: 2%;
+	color: rgba(0, 0, 0, 0.80);
+}
+#SubmitLogin:hover{
+	color: 	white;
+}
+#sign_in_content_title{
+	position: relative;
+	width:40%;
+	margin:auto;
+	margin-bottom: 5%;
+	left:-5%;
+}
+
+
+#Register{
+	font-weight: bold;
+	font-size: 1em;
+	color: white;
+}
+#Register a{
+	text-decoration: none;
+	color: white;
+}
+
+
+#manuale{
+	text-align: center;
+	font-size: 11pt;
+	text-decoration: none;
+	color: white;
+}
+
+input{
+	margin-bottom: 2px;
+	border-radius: 2px;
+}
+
+p{
+	margin-bottom: 0px;
+}
+
+footer{
+	bottom: 0%;
+	position: absolute;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	width: 99%; 
+	height: 40px;
+	background-color: rgba(0, 0, 0, 0.80);
+	text-shadow: 1px 0px 10px rgba(0, 0, 0, 1);
+	border-radius: 12px;
+}
+#sign_in_footer a{
+	text-decoration: none;
+	color: white;
+	text-transform: capitalize;
+}
+
+/*******************************************************************************************************************
+	CSS per la pagina registrati.php
+*******************************************************************************************************************/
+#form_registrazione{
+	left: 30%;
+	top: 25%;
+	position: fixed;
+	width: 40%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.80);
+	padding: 3%;
+	border-radius: 12px;
+}
+#section_registrazione h1{
+	margin: auto;
+	left: 45%;
+	top: 15%;
+	position: fixed;
+	font-size: 2em;	
+}

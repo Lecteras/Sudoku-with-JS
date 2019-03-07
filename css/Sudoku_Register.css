@@ -1,0 +1,55 @@
+
+*{
+	font-family: 'Conv_Taviraj-Regular', Georgia;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-image: url("./img/BackgroundLogin.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#section_register{
+	left: 35%;
+	top: 25%;
+	position: fixed;
+	margin: auto;
+	padding: 2%;
+	text-align: left;
+	background-color: rgba(0, 0, 0, 0.80);
+	padding: 3%;
+	border-radius: 12px;
+}
+#section_register label{
+	color:white;
+	font-size: 1.5em;
+	width: auto;
+}
+#section_register input{
+
+	width: 55%;
+}
+#Registrati{
+	top:15px;
+	position: relative;
+	left: 80px;
+	font-size: 1.6em;
+		border-radius: 100px; 
+  -moz-border-radius: 100px; /* firefox */
+  -webkit-border-radius: 50px 50px 50px; 
+}
+#BtnReset{
+	top:10px;
+	width: 40px;
+	left: 80px;
+	font-size: 1.6em;
+	position: relative;
+		border-radius: 100px; 
+  -moz-border-radius: 100px; /* firefox */
+  -webkit-border-radius: 50px 50px 50px; 
+}
+ul{
+	list-style-type: none;
+}
